@@ -11,6 +11,7 @@ import CartDrawer from "../Layout/CartDrawer";
 import { IoMdClose } from "react-icons/io";
 import { useSelector } from "react-redux";
 import { MdLogin } from "react-icons/md";
+import logo2 from "/public/images/logo2.png";
 
 const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -39,7 +40,8 @@ const Navbar = () => {
         <div className="navbarContainer flex items-center justify-between p-4 h-12 w-full tracking-tighter">
           {/* Logo */}
           <div className="text-xl font-bold">
-            <Link to="/">Rabbit</Link>
+            {/* <Link to="/">Rabbit</Link> */}
+            <img className="h-32 w-32 object-cover" src={logo2} />
           </div>
           {/* Menu */}
           <div className="hidden md:flex items-center space-x-2 text-sm font-semibold">
