@@ -41,7 +41,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="text-xl font-bold">
             {/* <Link to="/">Rabbit</Link> */}
-            <img className="h-32 w-32 object-cover" src={logo2} />
+            <img className="h-32 w-32 object-cover select-none" src={logo2} />
           </div>
           {/* Menu */}
           <div className="hidden md:flex items-center space-x-2 text-sm font-semibold">
